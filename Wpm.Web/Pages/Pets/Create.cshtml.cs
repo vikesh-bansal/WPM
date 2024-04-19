@@ -22,6 +22,7 @@ public class CreateModel : PageModel
         var breeds = dbContext
            .Breeds
            .Select(b => new SelectListItem(b.Name, b.Id.ToString())).ToList();
+
         Breeds = new SelectList(breeds, "Value", "Text");
     }
 
