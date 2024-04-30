@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddInMemoryWpmDb();
+builder.Services.AddWpmDb(builder.Configuration);
 
 var app = builder.Build();
 
