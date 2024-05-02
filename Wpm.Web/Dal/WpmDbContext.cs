@@ -39,9 +39,9 @@ public class WpmDbContext : DbContext
                     new Breed() { Id = 6, Name = "American White", IdealMaxWeight = 30, SpeciesId = 3 }
                     );
         modelBuilder.Entity<Pet>().HasData(
-                    new Pet() { Id = 1, Name = "Gianni", Age = 10, Weight = 19, PhotoUrl= "/images/gianni.jpg", BreedId = 1 },
-                    new Pet() { Id = 2, Name = "Nina", Age = 8, Weight = 24, PhotoUrl = "/images/nina.jpg", BreedId = 1 },
-                    new Pet() { Id = 3, Name = "Cati", Age = 8, Weight = 33.5m, PhotoUrl = "/images/cati.jpg", BreedId = 2 },
+                    new Pet() { Id = 1, Name = "Gianni", Age = 10, Weight = 19, PhotoUrl= "https://wpmstorage2024.blob.core.windows.net/photos/gianni.jpg", BreedId = 1 },
+                    new Pet() { Id = 2, Name = "Nina", Age = 8, Weight = 24, PhotoUrl = "https://wpmstorage2024.blob.core.windows.net/photos/nina.jpg", BreedId = 1 },
+                    new Pet() { Id = 3, Name = "Cati", Age = 8, Weight = 33.5m, PhotoUrl = "https://wpmstorage2024.blob.core.windows.net/photos/cati.jpg", BreedId = 2 },
                     new Pet() { Id = 4, Name = "Cheshire", Age = 20, Weight = 12, BreedId = 3 },
                     new Pet() { Id = 5, Name = "Garfield", Age = 20, Weight = 12, BreedId = 4 },
                     new Pet() { Id = 6, Name = "Bugs", Age = 40, Weight = 25, BreedId = 5 },
