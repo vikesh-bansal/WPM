@@ -54,4 +54,4 @@ jobs:
           app-name: 'WPM2024'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_282681A2E9E340A5B651A933B6D01AA0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57E0AFACF95C42EE9442BD5DFA679A28 }}
