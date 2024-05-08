@@ -15,6 +15,7 @@ public class EditModel : PageModel
     [BindProperty]
     public Pet? Pet { get; set; }
 
+    [BindProperty]
     public IFormFile FileUpload { get; set; }
     public SelectList? Breeds { get; set; }
 

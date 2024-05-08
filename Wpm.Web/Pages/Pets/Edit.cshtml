@@ -1,12 +1,10 @@
 ﻿@page
 @model EditModel
-@{
-}
+
 <h1>@Model.Pet.Name</h1>
 
 <form method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="Pet.Id" />
-    <input type="hidden" asp-for="Pet.PhotoUrl" />
     <div class="mb-3">
         <label asp-for="Pet.Name" class="form-label"></label>
         <input asp-for="Pet.Name" class="form-control" />
